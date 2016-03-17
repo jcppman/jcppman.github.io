@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<title>Chriest Yu aka Jcppman</title>
-<xmp theme="journal" style="display:none;">
-
 # Chriest Yu (游昀叡)
 
 ## Profile
@@ -26,9 +21,9 @@
 
 ### Qisense Technology (2014/1 - Now)
 
-#### Online Analyzing Modules
+##### Online Analyzing Modules
 
-A web application for analyzing trading data in real-time. Users can upload 
+A web application for analyzing trading data in real-time. Users can upload
 their own trading records to the system, system will provides user recommandations
 and strategy based on given data.
 
@@ -43,12 +38,12 @@ and strategy based on given data.
        sequentially.
     0. Implement 40% of the module
 
-#### Data Relation Inspector
+##### Data Relation Inspector
 
-A single page application for inspecting data relationship. The goal of this 
+A single page application for inspecting data relationship. The goal of this
 web application is to reveal the inner relation of data. This project is
 full-stacked, the server-side grabs analyzed data from DB and provides it to
-client-side. Client-side display data via charts and topology maps, which is a 
+client-side. Client-side display data via charts and topology maps, which is a
 big challange because of the large scale of nodes.
 
 - Duration: 2014/09 - Now
@@ -58,12 +53,12 @@ big challange because of the large scale of nodes.
     0. Implement the server-side of current version
     0. Migrate from grunt to gulp
 
-#### Distributed Crawler Cluster 
+##### Distributed Crawler Cluster
 
 A scalable, incremental and expandable web crawling system. The system will keep
 monitoring several B2C and C2C e-commerce platforms and fetching new product info
 and consumer reviews. The system is able to crawl not only static webpages but
-also ajax-loaded contents. The system is separated into several layers and 
+also ajax-loaded contents. The system is separated into several layers and
 each layer is transparent to its dependent, make it expandable and scalable.
 
 - Duration: 2014/01 - 2014/09
@@ -77,7 +72,7 @@ each layer is transparent to its dependent, make it expandable and scalable.
 
 ### Distribution and Mobile Computing Lab of Beihang University (2010/08 - 2013/12)
 
-#### HTML5-Based Augmented Reality Museum Guide  
+##### HTML5-Based Augmented Reality Museum Guide
 
 This project is aim to develop a HTML5 web-application whose main task is
 providing tourisms extra information about the OOI(Object Of Interest).
@@ -85,17 +80,17 @@ The application will captures the video from terminal's camera, detecting
 objects, points out each partials and marks their extra information on top of
 it. This application uses WebRTC to fetch images from the camera in
 HTML5-compatible browsers, compress them and transfer it to server via
-websocket. The server-side is powered by Storm and Node.js.  
+websocket. The server-side is powered by Storm and Node.js.
 
 - Duration: 2012/10 - 2013/12
 - Stack: Storm/Python/Node.js/OpenCV
 - Responsibility:
     0. Design the architecture
-    0. Survey and implement the binary feature based 3D object recognition arithmetic 
+    0. Survey and implement the binary feature based 3D object recognition arithmetic
     0. Study and implement the position estimation and registration module
     0. Integrate all module into a HTML5 web-application
 
-#### Bacnet/Modbus Energy Monitoring System  
+##### Bacnet/Modbus Energy Monitoring System
 
 This project is aim to build an energy consumption analysing system to optimise
 the usage of buildings' air-conditioner. The system will acquires parameters of
@@ -115,7 +110,7 @@ Pharmaceuticals Holding Company.
     0. Develop the remote databases aggregation and transportation tool base on
        the reflection mechanism of JAVA
 
-#### Distributed Gas Monitoring System 
+##### Distributed Gas Monitoring System
 
 This was a personal project for spending spare time during my military service,
 sold to MDK Medical Equipments later. The system is deployed on Kaohsiung E-Da
@@ -126,7 +121,7 @@ to a transfer hub. The transfer hub will send those data to the server via
 TCP/IP. After the data is received by the server, it could be observed by
 administrators on the web application.
 
-- Duration: 2011/08 - 2012/07 
+- Duration: 2011/08 - 2012/07
 - Stack: C51/Ruby On Rails
     0. Design the architecture
     0. Design a simplified Modbus-like protocol
@@ -142,29 +137,29 @@ administrators on the web application.
         - Server-side monitoring daemon with ruby
         - Web interface
 
-#### Satellite Attitude Observing System  
+##### Satellite Attitude Observing System
 
 This project is aim to develop an utility for debugging satellite communication
 modules. The utility would receive observed data from RS-232. After extracting
 the parameters, it will display the calculated position and attitude and show a
-fancy 3d satellite model to demonstrate the state of the satellite. 
+fancy 3d satellite model to demonstrate the state of the satellite.
 
-- Duration: 2010/12 - 2011/01 
+- Duration: 2010/12 - 2011/01
 - Stack: C#/OpenGL
 - Responsibility: My main task is rendering 3d satellite model according to the
   given attitude parameters. Because the lack of 3d model resolver in C#, I
   also develop a simple parser for Soilwork exported model files.
 
-#### Comsat networking examination and applying system  
+##### Comsat networking examination and applying system
 
 This system provides comsat networking applicants an online applying interface
 to submit their application and check the examination reports, also provides
 administrators an online interface to arrange automative examinations, control
 frequency spectrographs and supply oscillators.
 
-- Duration: 2010/09 - 2011/05 
+- Duration: 2010/09 - 2011/05
 - Stack: J2EE,JNI,C++
-- Responsibility: 
+- Responsibility:
     0. Analyze and design the whole workflow
     0. Design the architecture
     0. Develop the data acquisition module in C++
@@ -208,6 +203,3 @@ Regard music as part of my soul, addict to music technology, love visual arts.
 An amateur recording & mixing engineer, a bass player and singer/songwritter.
 Favorite directors are Quentin Tarantino and Stanley Kubrick.
 
-</xmp>
-<script src="v/0.2/strapdown.js"></script>
-</html>

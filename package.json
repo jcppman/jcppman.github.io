@@ -1,0 +1,25 @@
+{
+  "name": "jcppman.github.io",
+  "version": "0.0.1",
+  "description": "jcppman.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo nothing here"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcppman/jcppman.github.io.git"
+  },
+  "author": "Chriest Yu <jcppman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcppman/jcppman.github.io/issues"
+  },
+  "homepage": "https://github.com/jcppman/jcppman.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-html-replace": "^1.5.5",
+    "marked": "^0.3.5"
+  }
+}
