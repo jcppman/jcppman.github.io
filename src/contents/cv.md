@@ -1,7 +1,6 @@
 ---
 name: cv
 title: About me
-theme: light
 order: 999
 ---
 
