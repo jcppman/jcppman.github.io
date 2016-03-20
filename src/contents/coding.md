@@ -33,4 +33,4 @@ We all know how our codes look like, we're familiar with the visual
 representation of codes, in all scales. But how about the aural representation?
 
 **Click [here](http://jcppman.github.io/code-player/) to play** and come
-back later.
+back here if you wanna know more.
