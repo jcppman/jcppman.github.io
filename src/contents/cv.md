@@ -9,7 +9,6 @@ order: 999
 - Name: Chriest Yu (游昀叡)
 - Gender: Male
 - Birth: 1988/08/16
-- Phone: +85 18621276152
 - E-mail: jcppman@gmail.com
 - Github: https://github.com/jcppman
 
