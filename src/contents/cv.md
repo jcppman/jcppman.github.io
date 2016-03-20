@@ -1,3 +1,10 @@
+---
+name: cv
+title: About me
+theme: light
+order: 999
+---
+
 ## Profile
 
 - Name: Chriest Yu (游昀叡)
@@ -8,6 +15,8 @@
 - Github: https://github.com/jcppman
 
 ## Who I am
+
+I am a Taiwanese software developer, currently live in Shanghai.
 
 During my whole life, my soul is occupied by two things: Programming and Music.
 The first one gives me job and keeps me survived while the second one "absorbs"

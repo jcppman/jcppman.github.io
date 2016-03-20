@@ -15,14 +15,17 @@
           <h1><b class="hero">Molten Steel</b></h1>
         </div>
         <nav id="topbar" class="row sticky upper">
-          <a href="#cv">About me</a>
+          {{#contents}}
+          <a data-theme="{{theme}}" href="#{{name}}">{{title}}</a>
+          {{/contents}}
         </nav>
-        <div class="row content" id="cv">
+        {{#contents}}
+        <div class="row content" id="{{name}}">
           <div class="twelve columns">
-          <!-- build:cv -->
-          <!-- endbuild -->
+            {{{content}}}
           </div>
         </div>
+        {{/contents}}
       </div>
       <script type="text/javascript" src="script.js"></script>
     </body>

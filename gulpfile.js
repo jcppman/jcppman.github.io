@@ -1,12 +1,16 @@
 var path = require('path');
 var gulp = require('gulp');
 var util = require('gulp-util');
-var replace = require('gulp-html-replace');
 var concat = require('gulp-concat');
+var mu = require('gulp-mustache');
 var less = require('gulp-less');
 var marked = require('marked');
 var dist = __dirname;
 var fs = require('fs');
+var glob = require('glob');
+var async = require('async');
+var fm = require('front-matter');
+var xtend = require('xtend');
 
 gulp.task('css', function(){
   return gulp.src([
@@ -26,13 +30,32 @@ gulp.task('js', function(){
   ]).pipe(concat('script.js')).pipe(gulp.dest(dist));
 });
 gulp.task('html', function(){
-  return gulp.src([
-    'src/index.html'
-  ])
-  .pipe(replace({
-    cv: marked(fs.readFileSync(path.join(__dirname, 'src', 'cv.md')).toString())
-  }))
-  .pipe(gulp.dest(dist));
+  var output = gulp.dest(dist);
+  async.waterfall([
+    function(next){
+      glob('src/contents/*.md', next);
+    },
+    function(res, next){
+      async.map(res, fs.readFile, next);
+    }
+  ], function(err, res){
+    var contents = res.map(function(file){
+      return file.toString();
+    }).map(fm).map(function(file){
+      return xtend(file.attributes, {
+        content: marked(file.body)
+      });
+    }).sort(function(a, b){
+      return a.order - b.order;
+    });
+    gulp.src([
+      'src/index.html'
+    ]).pipe(mu({
+      contents: contents
+    }))
+    .pipe(output);
+  });
+  return output;
 });
 gulp.task('build', ['css', 'html', 'js']);
 gulp.task('watch', ['build'], function(){
