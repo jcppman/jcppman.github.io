@@ -28,9 +28,11 @@ see the famous Yosemite. The mountain line goes up and down, bumps again
 all the way up to the sky when you see it almost touching the ground.
 
 The idea jumped into my mind, a briliant idea that is so useless that nobody
-will ever try to implement it, so I can be the first one step on this borderland.
-We all know how our codes look like, we're familiar with the visual
+will ever try to implement it, so I can be the first one steps on this borderland.
+We all know how our codes looks like, we're familiar with the visual
 representation of codes, in all scales. But how about the aural representation?
 
 **Click [here](http://jcppman.github.io/code-player/) to play** and come
 back here if you wanna know more.
+
+-- to be continue --
