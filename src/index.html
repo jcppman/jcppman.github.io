@@ -16,8 +16,11 @@
         </div>
         <nav id="topbar" class="row sticky upper">
           {{#contents}}
-          <a data-theme="{{theme}}" href="#{{name}}">{{title}}</a>
+          <a href="#{{name}}">{{title}}</a>
           {{/contents}}
+          <span class="theme" id="theme">
+            <span class="toggle" data-theme="dark">Dark</span> | <span class="toggle" data-theme="light">Light</span>
+          </span>
         </nav>
         {{#contents}}
         <div class="row content" id="{{name}}">

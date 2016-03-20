@@ -4,7 +4,8 @@
 .background-set(@color, @bgColor){
   color: @color;
   background: @bgColor;
-  transition: background @transition-duration, color @transition-duration;
+  transition: background @transition-duration, color @transition-duration, border-color @transition-duration;
+  border-color: @color;
 }
 
 .upper{
@@ -44,6 +45,15 @@ nav{
     &:first-child{
       border: none;
       padding-left: 0;
+    }
+  }
+  .theme{
+    float: right;
+    .toggle{
+      cursor: pointer;
+      &:hover{
+        color: #0FA0CE;
+      }
     }
   }
   .background-set(black, white);
