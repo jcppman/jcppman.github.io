@@ -1,7 +1,6 @@
-# Chriest Yu (游昀叡)
-
 ## Profile
 
+- Name: Chriest Yu (游昀叡)
 - Gender: Male
 - Birth: 1988/08/16
 - Phone: +85 18621276152
