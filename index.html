@@ -10,11 +10,52 @@
     </head>
     <body>
       <div class="container">
-        <div class="row">
-          <div class="twelve columns cv">
-          <h1 id="chriest-yu-">Chriest Yu (游昀叡)</h1>
-<h2 id="profile">Profile</h2>
+        <div class="row header upper">
+          <span class="name">Chriest's</span>
+          <h1><b class="hero">Molten Steel</b></h1>
+        </div>
+        <nav id="topbar" class="row sticky upper">
+          <a href="#coding">Coding stuff</a>
+          <a href="#cv">About me</a>
+          <span class="theme" id="theme">
+            <span class="toggle" data-theme="dark">Dark</span> | <span class="toggle" data-theme="light">Light</span>
+          </span>
+        </nav>
+        <div class="row content" id="coding">
+          <div class="twelve columns">
+            <h1>Coding stuff</h1>
+            <p>Things below are my little experiments &amp; self-entertaining projects.</p>
+<h2 id="code-player">Code Player</h2>
+<p>This app is a good example of something that is both useless and super fun.</p>
+<p>Back to a normal working day in early 2014, TJ was still the big boss in town,
+AngularJs was hot and trendily and haven&#39;t meet his arch enemy Re**t, nobody
+would compiles javascript except coffescript evangelists, when people talk about
+async in javascript, usually end the conversation with the comparison between
+generator and promise and how they save us from callback hell.</p>
+<p><img src="images/callbackhell.jpg" alt="callbackhell"></p>
+<p>I was debugging a perfectly crafted callback-based nodeJs application, with
+my colleague <a href="http://eyalarubas.com/">Eyal Arubas</a>. The application was so
+well organized that even if there were <code>function(err, data){</code> and <code>if(err) return
+console.error(err);</code> all over the place and indents almost touch the
+80-chars-limitation line, it still looks sort of beautiful, especially when you
+look at it on Sublime&#39;s minimap. Rotate your neck by 90 degrees and you will
+see the famous Yosemite. The mountain line goes up and down, bumps again
+all the way up to the sky when you see it almost touching the ground.</p>
+<p>The idea jumped into my mind, a briliant idea that is so useless that nobody
+will ever try to implement it, so I can be the first one step on this borderland.
+We all know how our codes look like, we&#39;re familiar with the visual
+representation of codes, in all scales. But how about the aural representation?</p>
+<p><strong>Click <a href="http://jcppman.github.io/code-player/">here</a> to play</strong> and come
+back here if you wanna know more.</p>
+
+          </div>
+        </div>
+        <div class="row content" id="cv">
+          <div class="twelve columns">
+            <h1>About me</h1>
+            <h2 id="profile">Profile</h2>
 <ul>
+<li>Name: Chriest Yu (游昀叡)</li>
 <li>Gender: Male</li>
 <li>Birth: 1988/08/16</li>
 <li>Phone: +85 18621276152</li>
@@ -22,6 +63,7 @@
 <li>Github: <a href="https://github.com/jcppman">https://github.com/jcppman</a></li>
 </ul>
 <h2 id="who-i-am">Who I am</h2>
+<p>I am a Taiwanese software developer, currently live in Shanghai.</p>
 <p>During my whole life, my soul is occupied by two things: Programming and Music.
 The first one gives me job and keeps me survived while the second one &quot;absorbs&quot;
 all the breads I earn, however, I love them both, equally.</p>
@@ -260,5 +302,6 @@ the light tracing and photon mapping modules before my internship ended.</p>
           </div>
         </div>
       </div>
+      <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
