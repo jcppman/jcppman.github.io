@@ -21,7 +21,7 @@ generator and promise and how they save us from callback hell.
 I was debugging a perfectly crafted callback-based nodeJs application, with
 my colleague [Eyal Arubas](http://eyalarubas.com/). The application was so
 well organized that even if there were `function(err, data){` and `if(err) return
-console.error(err);` all over the place and indents almost touch the
+console.error(err);` all over the place and some indents almost touch the
 80-chars-limitation line, it still looks sort of beautiful, especially when you
 look at it on Sublime's minimap. Rotate your neck by 90 degrees and you will
 see the famous Yosemite. The mountain line goes up and down, bumps again
@@ -32,7 +32,14 @@ will ever try to implement it, so I can be the first one steps on this borderlan
 We all know how our codes looks like, we're familiar with the visual
 representation of codes, in all scales. But how about the aural representation?
 
-**Click [here](http://jcppman.github.io/code-player/) to play** and come
-back here if you wanna know more.
+But the thought had hidden in my mind for about one year before I finally got
+enough time to spend on it, and the implementation took way longer than I thought.
+Actually the core function which translates text to music notes, the most
+interesting part, only took me less than 30 mins, the rest of the time were
+spent on other trivial things. I even found several bugs in browserify & one of
+the transform plugin and submitted two pull requests during the development.
+The way of seeking art is really steep and rugged, isn't it?
 
--- to be continue --
+The result is quite satisfactory,
+**Click [here](http://jcppman.github.io/code-player/) to have fun with it**. And
+if you're curious about implementing details, read the [README](https://github.com/jcppman/code-player).
