@@ -364,14 +364,12 @@ textarea {
 body {
   padding: 30px;
 }
-.upper {
-  text-transform: uppercase;
-}
 code {
   color: black;
 }
 table {
   width: 100%;
+  max-width: 100%;
   text-align: left;
   border-collapse: collapse;
 }
@@ -382,11 +380,19 @@ table td {
 a:active {
   color: blue;
 }
-a:hover,
-a:visited {
-  /*color: #0FA0CE;*/
+.upper {
+  text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+  table th:first-child,
+  table td:first-child {
+    display: none;
+  }
+  .theme {
+    display: none;
+  }
+}
 body {
   color: black;
   background: white;
@@ -416,6 +422,7 @@ body > * {
   text-align: center;
 }
 nav {
+  font-size: 0.8em;
   padding: 10px 0;
   border-style: solid none;
   border-width: 1px;
@@ -461,6 +468,7 @@ nav .theme .toggle:hover {
   border-color: white;
 }
 nav.sticky {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -470,6 +478,7 @@ nav.sticky:after {
   display: table;
 }
 .content {
+  word-wrap: break-word;
   padding-top: 50px;
 }
 .content img {
