@@ -8,7 +8,18 @@
   border-color: @color;
 }
 
-body {
+@media (max-width: 768px) {
+  table{
+    th:first-child, td:first-child{
+      display: none;
+    }
+  }
+  .theme{
+    display: none;
+  }
+}
+
+body{
   .background-set(black, white);
   &.dark{
     .background-set(white, black);
@@ -31,6 +42,7 @@ body {
   }
 }
 nav{
+  font-size: 0.8em;
   padding: 10px 0;
   border-style: solid none;
   border-width: 1px;
@@ -64,6 +76,7 @@ nav{
     }
   }
   &.sticky{
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     &:before,
@@ -75,6 +88,7 @@ nav{
   max-height: @navbar-height;
 }
 .content{
+  word-wrap: break-word;
   img{
     width: 100%;
   }
