@@ -8,14 +8,15 @@
   border-color: @color;
 }
 
-.upper{
-  text-transform: uppercase;
-}
-
 body {
   .background-set(black, white);
   &.dark{
     .background-set(white, black);
+  }
+  &>*{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .header{
@@ -66,8 +67,6 @@ nav{
   &.sticky{
     position: sticky;
     top: 0;
-    margin-left: -10px;
-    margin-right: -10px;
     &:before,
     &:after {
       content: '';
@@ -84,7 +83,4 @@ nav{
   h2{
     border-style: none none solid none;
   }
-}
-code{
-  color: black;
 }
