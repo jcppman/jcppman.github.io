@@ -9,26 +9,24 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-      <div class="pure-g">
-        <div class="pure-u-1-1 header upper">
-          <span class="name">Chriest's</span>
-          <h1><b class="hero">Molten Steel</b></h1>
-        </div>
-        <nav id="topbar" class="pure-u-1-1 sticky upper">
-          {{#contents}}
-          <a href="#{{name}}">{{title}}</a>
-          {{/contents}}
-          <span class="theme" id="theme">
-            <span class="toggle" data-theme="dark">Dark</span> | <span class="toggle" data-theme="light">Light</span>
-          </span>
-        </nav>
-        {{#contents}}
-        <div class="pure-u-1-1 content" id="{{name}}">
-          <h1>{{title}}</h1>
-          {{{content}}}
-        </div>
-        {{/contents}}
+      <div class="header upper">
+        <span class="name">Chriest's</span>
+        <h1><b class="hero">Molten Steel</b></h1>
       </div>
+      <nav id="topbar" class="sticky upper">
+        {{#contents}}
+        <a href="#{{name}}">{{title}}</a>
+        {{/contents}}
+        <span class="theme" id="theme">
+          <span class="toggle" data-theme="dark">Dark</span> | <span class="toggle" data-theme="light">Light</span>
+        </span>
+      </nav>
+      {{#contents}}
+      <div class="content" id="{{name}}">
+        <h1>{{title}}</h1>
+        {{{content}}}
+      </div>
+      {{/contents}}
       <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
