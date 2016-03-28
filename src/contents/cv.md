@@ -226,8 +226,8 @@ the light tracing and photon mapping modules before my internship ended.
 Substitles translator of following Coursera courses:
 
 - Team leader of translation team: "Introduction to Music Production"
-- Translator of course: "History of Rock, Par One"
-- Translator of course: "History of Rock, Par Two"
+- Translator of course: "History of Rock, Part One"
+- Translator of course: "History of Rock, Part Two"
 - Translator of course: "Jazz Improvisation"
 - Translator of course: "Fundamentals of Music Rehearsing Ensembles"
 - Translator of course: "The Music of Beatles"

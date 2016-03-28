@@ -9,6 +9,9 @@
 }
 
 @media (max-width: 768px) {
+  body{
+    font-size: 18px;
+  }
   table{
     th:first-child, td:first-child{
       display: none;
@@ -19,7 +22,14 @@
   }
 }
 
+@media (min-width: 769px) {
+  body{
+    font-size: 21px;
+  }
+}
+
 body{
+  line-height: 1.58;
   .background-set(black, white);
   &.dark{
     .background-set(white, black);
