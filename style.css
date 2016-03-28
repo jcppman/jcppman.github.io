@@ -385,6 +385,9 @@ a:active {
 }
 
 @media (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
   table th:first-child,
   table td:first-child {
     display: none;
@@ -393,7 +396,13 @@ a:active {
     display: none;
   }
 }
+@media (min-width: 769px) {
+  body {
+    font-size: 21px;
+  }
+}
 body {
+  line-height: 1.58;
   color: black;
   background: white;
   transition: background 1s, color 1s, border-color 1s;
