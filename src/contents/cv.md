@@ -20,13 +20,6 @@ During my whole life, my soul is occupied by two things: Programming and Music.
 The first one gives me job and keeps me survived while the second one "absorbs"
 all the breads I earn, however, I love them both, equally.
 
-## What I am not good at
-
-As a software engineer who has a master degree of computer science, it's kind of
-a shame that I don't have tank-solid knowledges in algorithm or fields that
-people might exptect me to have (I know how to invert binary-tree on whiteboard
-though, lol).
-
 ## What I am good at
 
 I am good at learning new things, and I love to dig & dive into something I
@@ -43,13 +36,14 @@ don't know.
 A multi-devices (desktop, android, ios) online virtual classroom which contains:
 real-time audio/video chat, text chat, whiteboard, slides & WYSIWYG text editor.
 
-- Keywords: single page application; webrtc; canvas;
+- Keywords: single page application; webrtc; hybrid-app;
 - Duration: 2015/1 - now
 - Responsibility:
   0. Implement & maintain frontend modules
   0. Implement a flexible frontend build script which largely increases
+development & debugging speed, especially in mobile developing scenarios due to
+the provided live reload mechanism
   0. Help upstream libraries finding/fixing bugs
-development & debugging speed, especially in mobile developing scenarios
 - Stack: NodeJs/Gulp/Less/RactiveJS
 
 ### Qisense Technology (2014/1 - 2015/1)
