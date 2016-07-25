@@ -29,7 +29,7 @@ don't know.
 
 ## Professional Experience
 
-### EFLabs (2015/1 - Now)
+### EFLabs (2015/1 - 2016/7)
 
 ##### Virtual Classroom
 
