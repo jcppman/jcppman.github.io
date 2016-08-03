@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Since Last Time We Met</title>
+        <meta name="description" content="Chriest's website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+body{
+  background: black;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+#content{
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+}
+        </style>
+    </head>
+    <body>
+      <div id="content"><span id="num"></span> <span>Days</span></div>
+      <script type="text/javascript">
+        var d = Math.floor(((new Date().getTime()) - (new Date(2016, 5, 13)).getTime())/24/60/60/1000)
+        document.getElementById('num').innerHTML = d;
+      </script>
+    </body>
+</html>
