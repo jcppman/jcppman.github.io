@@ -14,19 +14,19 @@
         <h1><b class="hero">Molten Steel</b></h1>
       </div>
       <nav id="topbar" class="sticky upper">
-        {{#contents}}
-        <a href="#{{name}}">{{title}}</a>
-        {{/contents}}
+        {{#pages}}
+        <a href="{{name}}">{{title}}</a>
+        {{/pages}}
         <span class="theme" id="theme">
           <span class="toggle" data-theme="dark">Dark</span> | <span class="toggle" data-theme="light">Light</span>
         </span>
       </nav>
-      {{#contents}}
+      {{#pages}}
       <div class="content" id="{{name}}">
         <h1>{{title}}</h1>
         {{{content}}}
       </div>
-      {{/contents}}
+      {{/pages}}
       <script type="text/javascript" src="script.js"></script>
     </body>
 </html>

@@ -1,7 +1,9 @@
 var path = require('path');
 var gulp = require('gulp');
+var rename = require('gulp-rename');
 var util = require('gulp-util');
 var concat = require('gulp-concat');
+var mergeStream = require('merge-stream');
 var mu = require('gulp-mustache');
 var less = require('gulp-less');
 var marked = require('marked');
@@ -39,7 +41,7 @@ gulp.task('html', function(){
       async.map(res, fs.readFile, next);
     }
   ], function(err, res){
-    var contents = res.map(function(file){
+    var pages = res.map(function(file){
       return file.toString();
     }).map(fm).map(function(file){
       return xtend(file.attributes, {
@@ -48,12 +50,27 @@ gulp.task('html', function(){
     }).sort(function(a, b){
       return a.order - b.order;
     });
-    gulp.src([
-      'src/index.html'
+
+    var files = [];
+    // index
+    files.push(gulp.src([
+      'src/templates/index.html'
     ]).pipe(mu({
-      contents: contents
-    }))
-    .pipe(output);
+      pages: pages
+    })));
+
+    // pages
+    files.push.apply(files, pages.map(function(page){
+      return gulp
+      .src(['src/templates/page.html'])
+      .pipe(mu({
+        items: pages,
+        current: page
+      }))
+      .pipe(rename(page.name + '.html'));
+    }));
+
+    mergeStream.apply(null, files).pipe(output);
   });
   return output;
 });

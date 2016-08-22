@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Chriest AKA Jcppman</title>
+        <meta name="description" content="Chriest's website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <div class="header upper">
+        <span class="name">Chriest's</span>
+        <h1><b class="hero">Molten Steel</b></h1>
+      </div>
+      <nav id="topbar" class="sticky upper">
+        {{#items}}
+        <a href="{{name}}">{{title}}</a>
+        {{/items}}
+        <span class="theme" id="theme">
+          <span class="toggle" data-theme="dark">Dark</span> | <span class="toggle" data-theme="light">Light</span>
+        </span>
+      </nav>
+      <div class="content" id="{{name}}">
+        <h1>{{title}}</h1>
+        {{{current.content}}}
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
