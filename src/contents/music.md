@@ -7,6 +7,21 @@ order: 2
 Music is a lifetime pursuit. Your taste might change, you might be listenning
 to genres that you wouldn't touch 3 years ago, but it's still the love of music.
 
+## Ever Lasting Metal Journey
+
+### Blood of Life
+
+After almost one year of producing, this album is finally released! I play bass in this band but more importantly, this is the first time I as a recording/mixing
+engineer produce something not written by me.It was quite challenging because the standard is low when I'm mixing for myself.
+
+Record other people's vocal is harder than I thought, as I need to figure out the right way to provide a usable cue mix for the singer to sing with comfort. I tried several different approaches making the singer able to hear herself in a natural way, includes some unconventional ways like a) place a condenser mic behind her to bring the sound of the room into the cue mix to make her "forget" the headphone b) replace the headphone with a pair of Bose QC20 earbuds, turn the "aware mode" on so the environment sound would leak into the cue mix directly through the earbuds.
+
+Bring out mixes that other band members are happy with is even harder! After several failures, I decided to seek for help [here](https://www.creativelive.com/bundle/geargods-presents-mastering-metal-mixing) and the courses are super awesome! After several cycles of feedbacks, arguments, and tweaks, the result is finally slightly acceptable and unwillingly nailed.
+
+The road ahead is still steep and raw, keep mixing!
+
+<iframe style="border: 0; width: 350px; height: 753px;" src="https://bandcamp.com/EmbeddedPlayer/album=324857380/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://thanatologyproductions.bandcamp.com/album/reign-over-horror">Reign Over Horror by Blood Of Life</a></iframe>
+
 ## Electronify
 
 For me making electronic music is somehow very similar to programming, a combination
