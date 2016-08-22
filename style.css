@@ -504,3 +504,6 @@ nav.sticky:after {
 .content h2 {
   border-style: none none solid none;
 }
+main {
+  padding: 20px;
+}
