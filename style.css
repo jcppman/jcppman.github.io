@@ -504,6 +504,9 @@ nav.sticky:after {
 .content h2 {
   border-style: none none solid none;
 }
-main {
-  padding: 20px;
+main#index {
+  padding-top: 30px;
+}
+main#index p {
+  font-size: 0.8em;
 }
