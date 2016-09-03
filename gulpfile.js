@@ -44,20 +44,17 @@ gulp.task('html', function(){
     var pages = res.map(function(file){
       return file.toString();
     }).map(fm).map(function(file){
-      return xtend(file.attributes, {
-        content: marked(file.body)
+      var attrs = file.attributes;
+      return xtend(attrs, {
+        content: marked(file.body),
+        filename: attrs.filename || attrs.name,
+        href: attrs.filename === 'index' ? '/' : attrs.filename || attrs.name
       });
     }).sort(function(a, b){
       return a.order - b.order;
     });
 
     var files = [];
-    // index
-    files.push(gulp.src([
-      'src/templates/index.html'
-    ]).pipe(mu({
-      pages: pages
-    })));
 
     // pages
     files.push.apply(files, pages.map(function(page){
@@ -67,7 +64,7 @@ gulp.task('html', function(){
         items: pages,
         current: page
       }))
-      .pipe(rename(page.name + '.html'));
+      .pipe(rename(page.filename + '.html'));
     }));
 
     mergeStream.apply(null, files).pipe(output);
