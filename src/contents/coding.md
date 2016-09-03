@@ -1,5 +1,6 @@
 ---
 name: coding
+filename: index
 title: Coding stuff
 order: 1
 ---
