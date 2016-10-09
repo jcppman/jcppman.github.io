@@ -1,7 +1,7 @@
 ---
 name: music
 title: Music stuff
-order: 2
+order: 1
 ---
 
 Music is a lifetime pursuit. Your taste might change, you might be listenning
@@ -58,6 +58,25 @@ To the one and only Ronnie James Dio, rest in peace. \m/
 Internet is a true miracle, it eliminates the distance between people. Songs below
 are collaborations with artists I've never meet in real life. **[Shoot me a mail](mailto:jcppman@gmail.com)
 if you also want to brew something with me**.
+
+### Let me out
+
+This one is the result of my first [Kompoz](https://kompoz.com) attempt, the
+platform is really handy for ppl looking for online collaboration chances, and
+while other similar platforms are more focus on electronic music, the majority
+of this one is "band stuff".
+
+- Vocal and Mix/Master by Me
+- Lyrics by [Tracy Hutchison](http://www.kompoz.com/music/artist/xvpusw)
+- Guitars and Bass by [Jamie Langley](http://www.kompoz.com/music/artist/Catharsick)
+- Composition and Drums by [Andrea Spaziale](http://www.kompoz.com/music/artist/AndreaSpace)
+
+<iframe width="100%" height="140" scrolling="no" frameborder="no" src="http://www.kompoz.com/music/player/635328/703960/2"></iframe>
+
+And the song also comes with a rhythm guitar playthrough, nice work Jamie!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SlYpnR7c8Sk" frameborder="0" allowfullscreen></iframe>
+
 
 ### All the words
 
