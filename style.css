@@ -506,7 +506,7 @@ nav.sticky:after {
 }
 .content h2,
 .content h3 {
-  margin-top: -70px;
+  margin-top: -50px;
   padding-top: 70px;
 }
 main#index {
