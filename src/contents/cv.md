@@ -11,14 +11,19 @@ order: 999
 - Birth: 1988/08/16
 - E-mail: jcppman@gmail.com
 - Github: https://github.com/jcppman
+- Website: http://chriest.studio
 
 ## Who I am
 
-I am a Taiwanese software developer, currently live in Shanghai.
+I am a software developer from Taiwan, Taipei, currently live in Shanghai.
 
 During my whole life, my soul is occupied by two things: Programming and Music.
 The first one gives me job and keeps me survived while the second one "absorbs"
 all the breads I earn, however, I love them both, equally.
+
+I'm highly interested in the area where audio and computer science intersect. My
+interests are across the whole spectrum, from recording, mixing, sound design, to
+computational arts, computer music, audio processing.
 
 ## What I am good at
 
@@ -27,7 +32,40 @@ don't know.
 
 > ["He who does not know can know from learning"](http://www.adinkra.org/htmls/adinkra/neao.htm)
 
+## Awards
+
+### 2015 China Music Expo Web Audio Innovation Contest - Best UI Design
+
+- Issuer: Google , MIDI Manufacturers Association, China Music Instrument Association
+- Date: Oct 2015
+- Contest Page: http://chinagdg.org/web-audio-hackathon/
+- Application Page: https://github.com/jcppman/code-player
+
 ## Professional Experience
+
+### Splunk (2016/7 - Now)
+
+#### Splunk UI
+
+Splunk UI React components which make frontend devs' life way easier when building
+Splunk apps.
+
+- Duration: 2016/11 - Now
+- Responsibility:
+  0. Implememnt & maintain it as one of the contributer
+- Stack: Webpack/Postcss/React
+
+#### Splunk Mobile App
+
+Mobile app for Splunk users to see Splunk dashboards/reports on the go.
+
+- Keywords: hybrid-app; js bridge; webpack optimize;
+- Duration: 2016/9 - Now
+- Responsibility:
+  0. Design & implement a highly-customized build system based on webpack
+  0. Implement frontend modules
+  0. Optimize loading speed and improve app performance
+- Stack: Webpack/Postcss/Backbone
 
 ### EFLabs (2015/1 - 2016/7)
 
