@@ -15,14 +15,14 @@
       </div>
       <nav id="topbar" class="sticky upper">
         {{#items}}
-        <a href="{{name}}">{{title}}</a>
+        <a href="{{href}}">{{title}}</a>
         {{/items}}
         <span class="theme" id="theme">
           <span class="toggle" data-theme="dark">Dark</span> | <span class="toggle" data-theme="light">Light</span>
         </span>
       </nav>
-      <div class="content" id="{{name}}">
-        <h1>{{title}}</h1>
+      <div class="content">
+        <h1>{{current.title}}</h1>
         {{{current.content}}}
       </div>
       <script type="text/javascript" src="script.js"></script>
