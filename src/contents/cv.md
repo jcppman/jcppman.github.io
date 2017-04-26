@@ -52,7 +52,7 @@ Splunk apps.
 
 - Duration: 2016/11 - Now
 - Responsibility:
-  0. Implememnt & maintain it as one of the contributer
+  0. As one of the contributers, implement & maintain the library
 - Stack: Webpack/Postcss/React
 
 #### Splunk Mobile App
