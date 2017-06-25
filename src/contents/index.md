@@ -5,13 +5,10 @@ title: NEWS
 order: 0
 ---
 
-## Let me out
+## ALPACA
 
-**2016/10/09**
+**2017/06/25**
 
-This one is the result of my first [Kompoz](https://kompoz.com) attempt, the
-platform is really handy for ppl looking for online collaboration chances, and
-while other similar platforms are more focus on electronic music, the majority
-of this one is "band stuff".
+Shanghai-based sludge/doom metal band, word is pale, listen to it, NOW!
 
-[Read More](music#let-me-out)
+[Read More](music#alpaca)
