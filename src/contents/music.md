@@ -13,6 +13,8 @@ to genres that you wouldn't touch 3 years ago, but it's still the love of music.
 
 Shanghai-based sludge/doom metal band, word is pale, listen to it, NOW!
 
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2618436853/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://alpaca666.bandcamp.com/album/carcosa">Carcosa by Alpaca</a></iframe>
+
 <iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=3840105856/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://alpaca666.bandcamp.com/album/all-will-fail">All Will Fail by Alpaca</a></iframe>
 
 
