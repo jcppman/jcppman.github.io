@@ -45,27 +45,43 @@ don't know.
 
 ### Splunk (2016/7 - Now)
 
+#### Splunk CI/CD Infrastructure
+
+Splunk CI/CD infrastructure development & maintenance, including
+
+- Dockerfile & Docker image development
+- Jenkins & Jenkins plugin
+- Reporting System
+    - Splunk Apps
+    - UI Development Guide
+
 #### Splunk UI
 
 Splunk UI React components which make frontend devs' life way easier when building
 Splunk apps.
 
-- Duration: 2016/11 - Now
+- Keywords: front-end; javascript; UI; React;
 - Responsibility:
   0. As one of the contributers, implement & maintain the library
 - Stack: Webpack/Postcss/React
 
+#### Splunk App: DBX
+
+- Keywords: Splunk App; javascript; UI; React;
+- Responsibility: Help developing DBX 2.0's front-end
+
 #### Splunk Mobile App
 
-Mobile app for Splunk users to see Splunk dashboards/reports on the go.
-
 - Keywords: hybrid-app; js bridge; webpack optimize;
-- Duration: 2016/9 - Now
 - Responsibility:
   0. Design & implement a highly-customized build system based on webpack
   0. Implement frontend modules
   0. Optimize loading speed and improve app performance
 - Stack: Webpack/Postcss/Backbone
+
+#### Splunk Core Frontend
+
+- bugs fixing for Splunk Core PDF Generating
 
 ### EFLabs (2015/1 - 2016/7)
 
@@ -75,7 +91,7 @@ A multi-devices (desktop, android, ios) online virtual classroom which contains:
 real-time audio/video chat, text chat, whiteboard, slides & WYSIWYG text editor.
 
 - Keywords: single page application; webrtc; hybrid-app;
-- Duration: 2015/1 - now
+- Duration: 2015/1 - 2016/7
 - Responsibility:
   0. Implement & maintain frontend modules
   0. Implement a flexible frontend build script which largely increases
@@ -87,9 +103,6 @@ the provided live reload mechanism
 ### Qisense Technology (2014/1 - 2015/1)
 
 ##### Online Analysis
-
-A web application which users can upload trading records and view the aggregated
-data.
 
 - Keywords: single page application; continuous file uploading;
 - Duration: 2014/11 - 2015/1
@@ -106,8 +119,6 @@ data.
 
 ##### Data Relation Inspector
 
-The goal of this web application is to reveal the inner relation of data.
-
 - Keywords: single page application; large-scale data visualization; canvas;
 complicated layout tricks;
 - Duration: 2014/09 - 2014/10
@@ -121,12 +132,6 @@ I did in a javascript meetup
 
 ##### Distributed Crawler Cluster
 
-A scalable, incremental and expandable web crawling system. The system will keep
-monitoring several B2C and C2C e-commerce platforms and fetching new product info
-and consumer reviews. The system is able to crawl not only static webpages but
-also dynamic loaded contents. The system is separated into several layers and
-each layer is transparent to its dependent, which makes it expandable and scalable.
-
 - Keywords: distributed crawler; scalable nodejs modules;
 - Duration: 2014/01 - 2014/09
 - Stack: NodeJs/MongoDB/Redis/PhantomJS
@@ -135,17 +140,12 @@ each layer is transparent to its dependent, which makes it expandable and scalab
     0. Design and implement the incremetal crawling mechanism
     0. Decouple the dispatcher and actual crawlers
     0. Design and implement the page crawlers
-- Produced two opne source module: [node-brood](https://github.com/jcppman/node-brood)
+- Produced two open source npm modules: [node-brood](https://github.com/jcppman/node-brood)
 and [tipster](https://github.com/jcppman/tipster)
 
 ### Distribution and Mobile Computing Lab of Beihang University (2010/08 - 2013/12)
 
 ##### HTML5-Based Augmented Reality Museum Guide
-
-An web-based augmented reality application that provides tourisms extra
-information about the OOI(Object Of Interest). The application detects objects
-that shows in device camera, points out partials and display extra information
-on top of the video.
 
 - Keywords: HTML5; canvas; augmented reality; webrtc; web socket; object
 detection;
@@ -159,14 +159,6 @@ detection;
 
 ##### Bacnet/Modbus Energy Monitoring System
 
-An energy consumption analysing system to optimise the usage of buildings'
-air-conditioners. The system will acquires parameters of blowers, rerigerators
-and ammeters by Bacnet/IP and Modbus, also provides user an interface to
-control them remotely and manage alarm events. When an alarm event
-is triggered, it will send notifications via email and SMS text
-to the administrator. The system is used by Carrefour and Shanghai
-Pharmaceuticals Holding Company.
-
 - Keywords: internet of things;
 - Duration: 2012/08 - 2013/12
 - Stack: Java
@@ -179,15 +171,6 @@ Pharmaceuticals Holding Company.
 the reflection mechanism of JAVA
 
 ##### Distributed Gas Monitoring System
-
-This is a personal project for spending spare time during my military service,
-sold to MDK Medical Equipments later. The system is deployed on Kaohsiung E-Da
-Hospital. The air pressure monitoring device is an AT8051 powered chipboard
-with pressure sensors. The device can be attached on gas suppliers and exchange
-system, they would send the present values and parameters via RS-485
-to a sub-hub. The sub-hub will send aggregated data to the server via
-TCP/IP. After the data is received by the server, it could be observed by
-administrators on the web application.
 
 - Keywords: internet of things; embaded system; single page application;
 - Duration: 2011/08 - 2012/07
@@ -208,23 +191,13 @@ essential functions: Input handlers, transport protocol stack…etc.
 
 ##### Satellite Attitude Observing System
 
-An utility for debugging satellite communication modules. The utility would
-receive observed data from RS-232. After extracting the parameters, it will
-display the calculated position and attitude and show a fancy 3d satellite
-model to demonstrate the state of the satellite.
-
 - Duration: 2010/12 - 2011/01
 - Stack: C#/OpenGL
-- Responsibility: My main task is rendering 3d satellite model according to the
-  given attitude parameters. Because the lack of 3d model parser in C#, I
-  also developed a simple parser for Soilwork exported model files.
+- Responsibility: Rendering 3d satellite model by given attitude parameters.  Because
+the lack of 3d model parser in C#, I also developed a simple parser for Soilwork
+model files.
 
 ##### Comsat networking examination and applying system
-
-This system provides comsat networking applicants an online applying interface
-to submit their registrations and check the examination reports, also provides
-administrators an online interface to arrange automative examinations, control
-frequency spectrographs and supply oscillators.
 
 - Duration: 2010/09 - 2011/05
 - Stack: J2EE,JNI,C++
@@ -252,6 +225,28 @@ the light tracing and photon mapping modules before my internship ended.
 | 2006/09 - 2010/08 | Beihang University | Measuring and Control Technology and Instrumentation | Bachelor |
 
 ## Social Activities
+
+#### Organizer/Speaker of tech meetups in Shanghai Javascript Community
+
+- Organizer of [EFJS](https://www.meetup.com/efjsday/)
+- Speaker of [Shanghai Javascript Meetup](https://www.meetup.com/Shanghai-JavaScript/) (3 times)
+- Creator of Splunk Shanghai "Modern Frontend Development" series course
+
+#### Co-organizer of Shanghellfest music festival series
+
+- Shangheartfest (Music festival co-opperate with Heart To Heart Shanghai Charity Group)
+- Annual Shanghellfest Music Festival
+- Shanghorrorfest
+
+#### Independant Producer/Mix Engineer
+
+Produced/Engineered following albums/singles:
+
+- Hell Savior - Keep Running for Metal (2010)
+- Blood of Life - Reign Over Horror (2016)
+- Acherozu - 蛇牙 (2017)
+- ALPACA - All Will Fail (2017)
+- ALPACA - Carcosa (2017)
 
 #### Eduinfinity Translation Group (2014/05 - 2015/10)
 
