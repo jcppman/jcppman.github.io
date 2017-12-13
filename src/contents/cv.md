@@ -1,9 +1,3 @@
----
-name: cv
-title: About me
-order: 999
----
-
 ## Profile
 
 - Name: Chriest Yu (游昀叡)
@@ -13,39 +7,88 @@ order: 999
 - Github: https://github.com/jcppman
 - Website: http://chriest.studio
 
-## Who I am
+## AT A GLANCE
 
-I am a software developer from Taiwan, Taipei, currently live in Shanghai.
+- Javascript enthusiast, constantly perform tech-sharing, knowledge-transfering, courses and talks on internal/external meetup/conferences
+  - Repository for some previous talks: https://github.com/jcppman/talks
+- Skills:
+  - Modern Front-end development
+  - Mobile app/Hybrid app development
+  - Splunk App development
+  - Other aspects of web technology
+  - Audio/Image processing
 
-During my whole life, my soul is occupied by two things: Programming and Music.
-The first one gives me job and keeps me survived while the second one "absorbs"
-all the breads I earn, however, I love them both, equally.
+## About Me
 
-I'm highly interested in the area where audio and computer science intersect. My
-interests are across the whole spectrum, from recording, mixing, sound design, to
-computational arts, computer music, audio processing.
+I was born and grew-up in Taiwan, moved to China and studied in Shanghai and Beijing, work in Shanghai since now.
 
-## What I am good at
+I am:
 
-I am good at learning new things, and I love to dig & dive into something I
-don't know.
-
-> ["He who does not know can know from learning"](http://www.adinkra.org/htmls/adinkra/neao.htm)
-
-## Awards
-
-### 2015 China Music Expo Web Audio Innovation Contest - Best UI Design
-
-- Issuer: Google , MIDI Manufacturers Association, China Music Instrument Association
-- Date: Oct 2015
-- Contest Page: http://chinagdg.org/web-audio-hackathon/
-- Application Page: https://github.com/jcppman/code-player
+**Programer/Musician/Music Producer/Mix Engineer/Yogi/Vegan/Cat Maniac**
 
 ## Professional Experience
 
+### Side Projects
+
+#### iOS App: Ashtanga Calendar
+
+**Keywords**:
+
+- React Native
+- Redux
+- Jest
+
+**Description**:
+
+Ashtanga Calendar is a iOS app for yogi who practices Ashtanga Yoga to track his/her
+daily practice. I am responsible for the implementation of the second version
+of the App and the corresponding web services. P.S: It's not released yet.
+
+#### Code Player
+
+**Keywords**:
+
+- Computational Art
+- Web Audio API
+- React
+
+**Description**:
+
+An interesting expirement, it auralize text, specifically source codes.
+
+It won the 2015 China Music Expo Web Audio Innovation Contest, host by Google,
+MIDI Manufacturers Association and China Music Instrument Association. You
+can play with it here: http://chriest.studio/code-player
+
 ### Splunk (2016/7 - Now)
 
+#### Dashboard Viewer
+
+**Keywords**:
+
+- AWS
+  - S3
+  - API Gateway
+  - Lambda
+
+**Description**:
+
+Dashboard Viewer is a Hackweek project, the winner of 2017 Splunk Shanghai Hackweek
+Silver Award and Splunk global "Thinking out of the box" Award. It uses Amazon
+services to cache Splunk dashboards and provides user a way to share/export
+dashboards to public (usually, to view a Splunk dashboard you need an account,
+and the Splunk instance need to be accessible by public network).
+
 #### Splunk CI/CD Infrastructure
+
+**Keywords**:
+
+- Splunk App
+- Javascript
+- Jenkins
+- Docker
+
+**Description**:
 
 Splunk CI/CD infrastructure development & maintenance, including
 
@@ -57,27 +100,52 @@ Splunk CI/CD infrastructure development & maintenance, including
 
 #### Splunk UI
 
-Splunk UI React components which make frontend devs' life way easier when building
-Splunk apps.
+**Keywords**:
 
-- Keywords: front-end; javascript; UI; React;
-- Responsibility:
-  0. As one of the contributers, implement & maintain the library
-- Stack: Webpack/Postcss/React
+- React
+- PostCSS
+- UI Library
+- Webpack
+
+**Description**:
+
+Splunk UI is a React based UI library, it's used in Splunk internally by Splunk
+frontend developers. As one of the contributers, I help implementing &
+maintaining the library.
 
 #### Splunk App: DBX
 
-- Keywords: Splunk App; javascript; UI; React;
-- Responsibility: Help developing DBX 2.0's front-end
+**Keywords:**
+
+- Splunk App
+- React
+- Mobx
+- PostCSS
+- Webpack
+
+**Description:**
+
+DBX is a Splunk app to load data from relational databases to Splunk. Together with
+2 colleagues, I was in charge of the frontend development of DBX 2.0.
 
 #### Splunk Mobile App
 
-- Keywords: hybrid-app; js bridge; webpack optimize;
-- Responsibility:
-  0. Design & implement a highly-customized build system based on webpack
-  0. Implement frontend modules
-  0. Optimize loading speed and improve app performance
-- Stack: Webpack/Postcss/Backbone
+**Keywords:**
+
+- Hybrid-app
+- Backbone.js
+- Webpack
+
+**Description:**
+
+Splunk Mobile is a cross-platform mobile app (iOS and Android) to view Splunk
+dashboard/alert/report.
+
+I was responbile for:
+
+- Design & implement a highly-customized build system based on webpack
+- Implement frontend modules
+- Optimize loading speed and improve app performance
 
 #### Splunk Core Frontend
 
@@ -87,135 +155,64 @@ Splunk apps.
 
 ##### Virtual Classroom
 
+**Keywords:**
+
+- Realtime Collabration (Text Editing/Drawing)
+- Canvas
+- WebRTC
+- Web Socket
+- Desktop Web App
+- Hybrid-app (Phonegap)
+- Ractive.js
+- RequireJs/r.js
+- NodeJS
+- Gulp
+- LESS
+
+**Description:**
+
 A multi-devices (desktop, android, ios) online virtual classroom which contains:
 real-time audio/video chat, text chat, whiteboard, slides & WYSIWYG text editor.
 
-- Keywords: single page application; webrtc; hybrid-app;
-- Duration: 2015/1 - 2016/7
-- Responsibility:
-  0. Implement & maintain frontend modules
-  0. Implement a flexible frontend build script which largely increases
-development & debugging speed, especially in mobile developing scenarios due to
-the provided live reload mechanism
-  0. Help upstream libraries finding/fixing bugs
-- Stack: NodeJs/Gulp/Less/RactiveJS
+I was in charge of the frontend implementation and build scripts, the flexible
+build sysstem support realtime debug **on mobile device**, which humongously speeds up
+the development progress.
 
 ### Qisense Technology (2014/1 - 2015/1)
 
 ##### Online Analysis
 
-- Keywords: single page application; continuous file uploading;
-- Duration: 2014/11 - 2015/1
-- Stack: NodeJs/Express/Gulp/Less/AngularJS
-- Responsibility:
-    0. Design the frontend architecture
-    0. Build the scaffold
-    0. Setup an incremental building gulp script
-    0. Implement an angular service for manipulating and uploading files via
-       websocket. The file will be sliced into chunks and transmitted
-       sequentially.
-    0. Implement 40% of the module
-- Produced one open source module: [angular-file-service](https://github.com/jcppman/angular-file-service)
+**Keywords:**
 
-##### Data Relation Inspector
+- Single page application
+- AngularJS
+- WebGL & Canvas
+- NodeJS
+- Gulp
+- LESS
 
-- Keywords: single page application; large-scale data visualization; canvas;
-complicated layout tricks;
-- Duration: 2014/09 - 2014/10
-- Stack: NodeJs/Express/Gulp/Less/AngularJS/D3.js/PIXI.js
-- Responsibility:
-    0. The client side web app
-    0. Server side APIs
-    0. Performance optimization
-- Caused the birth of [this talk](https://github.com/jcppman/block-flow)
-I did in a javascript meetup
+**Description**:
+
+A web app for data visualization. I was in charge of both frontend and APIs implementation
 
 ##### Distributed Crawler Cluster
 
-- Keywords: distributed crawler; scalable nodejs modules;
-- Duration: 2014/01 - 2014/09
-- Stack: NodeJs/MongoDB/Redis/PhantomJS
-- Responsibility:
-    0. Desing and implement the task manager and scheduling machanism
-    0. Design and implement the incremetal crawling mechanism
-    0. Decouple the dispatcher and actual crawlers
-    0. Design and implement the page crawlers
-- Produced two open source npm modules: [node-brood](https://github.com/jcppman/node-brood)
-and [tipster](https://github.com/jcppman/tipster)
+**Keywords:**
 
-### Distribution and Mobile Computing Lab of Beihang University (2010/08 - 2013/12)
+- Web Crawler
+- NodeJS
+- High Scalability
+- MongoDB
+- Redis
+- Ansible
+- PhantomJS
+- AWS
+- Ansible
 
-##### HTML5-Based Augmented Reality Museum Guide
+**Description:**
 
-- Keywords: HTML5; canvas; augmented reality; webrtc; web socket; object
-detection;
-- Duration: 2012/10 - 2013/12
-- Stack: Storm/Python/Node.js/OpenCV
-- Responsibility:
-    0. Design the architecture
-    0. Survey and implement the binary feature based 3D object recognition arithmetic
-    0. Study and implement the position estimation and registration module
-    0. Integrate all module into a HTML5 web-application
-
-##### Bacnet/Modbus Energy Monitoring System
-
-- Keywords: internet of things;
-- Duration: 2012/08 - 2013/12
-- Stack: Java
-- Responsibility:
-    0. Develop multi-protocol DAQ modules (Bacnet/IP and Modbus)
-    0. Develop the data monitoring daemon
-    0. Develop the alarm events management and triggering system
-    0. Develop the SMS text and email sending module
-    0. Develop the remote databases aggregation and transportation tool base on
-the reflection mechanism of JAVA
-
-##### Distributed Gas Monitoring System
-
-- Keywords: internet of things; embaded system; single page application;
-- Duration: 2011/08 - 2012/07
-- Stack: C51/Ruby On Rails
-    0. Design the architecture
-    0. Design a simplified Modbus-like protocol
-    0. Develop terminal-side modules:
-        - An ultra lite operation system for AT8051 which only contains
-essential functions: Input handlers, transport protocol stack…etc.
-        - Data acquisition module
-        - Control module
-        - Communication module
-    0. Develop server-side program:
-        - Protocol stack
-        - Terminal configuration module
-        - Server-side monitoring daemon with ruby
-    0. Develop client-side web interface
-
-##### Satellite Attitude Observing System
-
-- Duration: 2010/12 - 2011/01
-- Stack: C#/OpenGL
-- Responsibility: Rendering 3d satellite model by given attitude parameters.  Because
-the lack of 3d model parser in C#, I also developed a simple parser for Soilwork
-model files.
-
-##### Comsat networking examination and applying system
-
-- Duration: 2010/09 - 2011/05
-- Stack: J2EE,JNI,C++
-- Responsibility:
-    0. Analyze and design the whole workflow
-    0. Design the architecture
-    0. Develop the data acquisition module in C++
-    0. Develop the background service in JAVA
-    0. Develop the web application in J2EE
-
-### Pearl Digital Entertainment (2008/07 - 2008/08)
-
-The intern was separated into two stages. The first stage was a training phase.
-We learned the basic computer graphic knowledge by implementing GPU rendering
-pipelines on CPU in C++ with DirectX 3D, includes triangle rasterization,
-perspective projection, texture binding and lighting. In the second stage, my
-responsibility was the implementation of a global lighting system. I accomplished
-the light tracing and photon mapping modules before my internship ended.
+A very scalable web scraping system, for crawling E-Commerce websites. It's deployed
+on Amazon EC2 and can be scaled automatically.
 
 ## Education
 
